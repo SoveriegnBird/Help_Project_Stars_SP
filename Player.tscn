@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=4 uid="uid://c5ov2h5lifc44"]
 
-[ext_resource type="Script" path="res://player.gd" id="1_1wum1"]
+[ext_resource type="Script" uid="uid://cncl2ms8wh5pv" path="res://player.gd" id="1_1wum1"]
 [ext_resource type="Texture2D" uid="uid://c32dv8iw5onrt" path="res://pixil-frame-0.png" id="2_5ov8u"]
 [ext_resource type="Texture2D" uid="uid://dt044ky0tosht" path="res://Steve.png" id="2_g2sym"]
 [ext_resource type="Texture2D" uid="uid://q142xtbmh6nv" path="res://Tile Set 1.png" id="3_gw7qa"]
@@ -299,8 +299,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_tlvq5"]
 _data = {
-"RESET": SubResource("Animation_qi4rt"),
-"Walk": SubResource("Animation_y41fv")
+&"RESET": SubResource("Animation_qi4rt"),
+&"Walk": SubResource("Animation_y41fv")
 }
 
 [node name="Node2D" type="Node2D"]

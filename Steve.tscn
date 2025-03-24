@@ -51,9 +51,9 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_wqtr3"]
 _data = {
-"RESET": SubResource("Animation_i4nmh"),
-"Walk_Right": SubResource("Animation_pbroy"),
-"Walk_Right_2": SubResource("Animation_snf7t")
+&"RESET": SubResource("Animation_i4nmh"),
+&"Walk_Right": SubResource("Animation_pbroy"),
+&"Walk_Right_2": SubResource("Animation_snf7t")
 }
 
 [node name="Node2D" type="Node2D"]

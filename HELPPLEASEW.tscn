@@ -35,8 +35,8 @@ tracks/0/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_bk67x"]
 _data = {
-"RESET": SubResource("Animation_2gv8l"),
-"Steve_Left": SubResource("Animation_an78k")
+&"RESET": SubResource("Animation_2gv8l"),
+&"Steve_Left": SubResource("Animation_an78k")
 }
 
 [node name="Node2D" type="Node2D"]
