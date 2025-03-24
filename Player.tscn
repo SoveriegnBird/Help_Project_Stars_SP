@@ -330,9 +330,11 @@ hframes = 3
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Player/CollisionShape2D/Sprite2D"]
 libraries = {
-"": SubResource("AnimationLibrary_tlvq5")
+&"": SubResource("AnimationLibrary_tlvq5")
 }
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(76, 529)
 scale = Vector2(34067.8, 34155.8)
+
+[node name="Node2D" type="Node2D" parent="."]
